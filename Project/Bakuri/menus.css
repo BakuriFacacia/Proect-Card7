@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #f9f8f3;
+    color: #2c1518;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header.Bakuri {
+    background-color: #340e17;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+}
+
+header.Bakuri .Facacc {
+    font-size: 20px;
+}
+
+header.Bakuri .skami {
+    display: flex;
+    gap: 28px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.6px;
+}
+
+header.Bakuri .money {
+    background-color: #340e17;
+    color: #ffffff;
+    padding: 9px 18px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    border: 1px solid #ffffff;
+}
+
+
+main.magida {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 64px 40px 100px 40px;
+}
+
+main.magida > .Facacc {
+    font-size: 56px;
+    font-weight: normal;
+    line-height: 1.1;
+    margin-bottom: 56px;
+}
+
+main.magida > .box1 {
+    margin-bottom: 52px;
+}
+
+main.magida > .box1:last-child {
+    margin-bottom: 0;
+}
+
+main.magida > .box1 > .skami {
+    font-size: 22px;
+    font-weight: normal;
+    padding-bottom: 18px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #d6d0c7;
+}
+
+main.magida > .box1 > .box2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+main.magida > .box1 > .box2 > .iphone {
+    flex: 1;
+    min-width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+main.magida > .box1 > .box2 > .iphone h3 {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #2c1518;
+}
+
+main.magida > .box1 > .box2 > .iphone p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #5a4648;
+    line-height: 1.45;
+}
+
+footer.Bakuri {
+    background-color: #340e17;
+    color: #ffffff;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+footer.Bakuri .box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+footer.Bakuri .iphone,
+footer.Bakuri .skami,
+footer.Bakuri .box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+footer.Bakuri a {
+    text-decoration: underline;
+}
+
+footer.Bakuri .Facacc {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+footer.Bakuri .Facacc h2 {
+    font-size: 52px;
+    font-weight: normal;
+}
+
+footer.Bakuri .Facacc p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    header.Bakuri {
+        flex-direction: column;
+        gap: 14px;
+        padding: 20px;
+    }
+
+    header.Bakuri .skami {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main.magida {
+        padding: 40px 20px 70px 20px;
+    }
+
+    main.magida > .Facacc {
+        font-size: 38px;
+        margin-bottom: 36px;
+    }
+
+    main.magida > .box1 > .box2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer.Bakuri {
+        padding: 40px 20px;
+        gap: 45px;
+    }
+
+    footer.Bakuri .Facacc h2 {
+        font-size: 34px;
+    }
+}

@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #f9f8f3;
+    color: #2c1518;
+    line-height: 1.55;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-color: #e4dfd7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header.Bakuri {
+    background-color: #340e17;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+}
+
+header.Bakuri .Facacc {
+    font-size: 20px;
+}
+
+header.Bakuri .skami {
+    display: flex;
+    gap: 28px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.6px;
+}
+
+header.Bakuri .money {
+    background-color: #340e17;
+    color: #ffffff;
+    padding: 9px 18px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    border: 1px solid #ffffff;
+}
+
+.magida {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 70px 40px;
+}
+
+.magida:nth-of-type(1) .box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.magida:nth-of-type(1) .box2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 560px;
+}
+
+.magida:nth-of-type(1) .box2 h1 {
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 1.05;
+}
+
+.magida:nth-of-type(1) .box2 p {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #3a2326;
+    max-width: 440px;
+}
+
+.magida:nth-of-type(1) .iphone {
+    flex: 1.15;
+}
+
+.magida:nth-of-type(1) .iphone img {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+}
+
+.magida:nth-of-type(2) {
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+
+.magida:nth-of-type(2) .skami {
+    font-size: 56px;
+    font-weight: normal;
+    line-height: 1.1;
+    margin-bottom: 44px;
+}
+
+.magida:nth-of-type(2) .box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.magida:nth-of-type(2) .box2 {
+    flex: 1.25;
+}
+
+.magida:nth-of-type(2) .box2 img {
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+}
+
+.magida:nth-of-type(2) .iphone {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.magida:nth-of-type(2) .iphone img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.magida:nth-of-type(2) .iphone p {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #3a2326;
+    text-align: left;
+    max-width: 390px;
+}
+
+footer.Bakuri {
+    background-color: #340e17;
+    color: #ffffff;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+footer.Bakuri .box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+footer.Bakuri .iphone,
+footer.Bakuri .skami,
+footer.Bakuri .box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+footer.Bakuri a {
+    text-decoration: underline;
+}
+
+footer.Bakuri .Facacc {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+footer.Bakuri .Facacc h2 {
+    font-size: 52px;
+    font-weight: normal;
+}
+
+footer.Bakuri .Facacc p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    header.Bakuri {
+        flex-direction: column;
+        gap: 14px;
+        padding: 20px;
+    }
+
+    header.Bakuri .skami {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .magida {
+        padding: 45px 20px;
+    }
+
+    .magida:nth-of-type(1) .box1 {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .magida:nth-of-type(1) .box2 {
+        min-height: auto;
+        gap: 20px;
+    }
+
+    .magida:nth-of-type(1) .box2 h1 {
+        font-size: 40px;
+    }
+
+    .magida:nth-of-type(1) .iphone,
+    .magida:nth-of-type(1) .iphone img {
+        width: 100%;
+        height: 360px;
+    }
+
+    .magida:nth-of-type(2) .skami {
+        font-size: 36px;
+    }
+
+    .magida:nth-of-type(2) .box1 {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .magida:nth-of-type(2) .box2,
+    .magida:nth-of-type(2) .box2 img {
+        width: 100%;
+        height: 340px;
+    }
+
+    .magida:nth-of-type(2) .iphone {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .magida:nth-of-type(2) .iphone img {
+        width: 180px;
+        height: 180px;
+    }
+
+    footer.Bakuri {
+        padding: 40px 20px;
+        gap: 45px;
+    }
+
+    footer.Bakuri .Facacc h2 {
+        font-size: 34px;
+    }
+}
